@@ -102,6 +102,6 @@
     End Sub
 
     Private Sub BT3_Click(sender As Object, e As EventArgs) Handles BT3.Click
-
+        Close()
     End Sub
 End Class

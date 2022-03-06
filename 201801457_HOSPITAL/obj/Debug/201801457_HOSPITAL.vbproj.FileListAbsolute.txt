@@ -1,0 +1,13 @@
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\bin\Debug\201801457_HOSPITAL.exe.config
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\bin\Debug\201801457_HOSPITAL.exe
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\bin\Debug\201801457_HOSPITAL.pdb
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\bin\Debug\201801457_HOSPITAL.xml
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\obj\Debug\201801457_HOSPITAL.vbproj.AssemblyReference.cache
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\obj\Debug\201801457_HOSPITAL.vbproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\obj\Debug\_201801457_HOSPITAL.Form1.resources
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\obj\Debug\_201801457_HOSPITAL.Resources.resources
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\obj\Debug\201801457_HOSPITAL.vbproj.GenerateResource.cache
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\obj\Debug\201801457_HOSPITAL.vbproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\obj\Debug\201801457_HOSPITAL.exe
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\obj\Debug\201801457_HOSPITAL.xml
+C:\Users\HP\Desktop\1s22\092\lab 092\201801457_HOSPITAL\obj\Debug\201801457_HOSPITAL.pdb

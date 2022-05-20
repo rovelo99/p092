@@ -22,314 +22,316 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.CALCULOToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MOSTRARToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ELIMINARToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LIMPIARVECTORESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GBdatos = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TBnombre = New System.Windows.Forms.TextBox()
-        Me.TBnit = New System.Windows.Forms.TextBox()
-        Me.Lnit = New System.Windows.Forms.Label()
-        Me.TBdias = New System.Windows.Forms.TextBox()
-        Me.Ldias = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.TBnitconsulta = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.RBjacuzzi = New System.Windows.Forms.RadioButton()
+        Me.RBaire = New System.Windows.Forms.RadioButton()
+        Me.RBestadar = New System.Windows.Forms.RadioButton()
+        Me.TBpersonas = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TBnombre = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TBnit = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MenuStrip1.SuspendLayout()
-        Me.GBdatos.SuspendLayout()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.AceptarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MostrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BuscarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OrdenarDescendenteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LimpiarMatrizToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.TBconsulta = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
         Me.SuspendLayout()
         '
-        'MenuStrip1
+        'GroupBox1
         '
-        Me.MenuStrip1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CALCULOToolStripMenuItem, Me.MOSTRARToolStripMenuItem, Me.ELIMINARToolStripMenuItem, Me.LIMPIARVECTORESToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(875, 24)
-        Me.MenuStrip1.TabIndex = 1
-        Me.MenuStrip1.Text = "MenuStrip1"
+        Me.GroupBox1.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.GroupBox1.BackgroundImage = Global._201801457_HOTEL.My.Resources.Resources._20130515_095739
+        Me.GroupBox1.Controls.Add(Me.GroupBox2)
+        Me.GroupBox1.Controls.Add(Me.TBpersonas)
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.TBnombre)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.TBnit)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.GroupBox1.Location = New System.Drawing.Point(21, 57)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(279, 346)
+        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "INGRESOS"
         '
-        'CALCULOToolStripMenuItem
+        'GroupBox2
         '
-        Me.CALCULOToolStripMenuItem.Name = "CALCULOToolStripMenuItem"
-        Me.CALCULOToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
-        Me.CALCULOToolStripMenuItem.Text = "CALCULO"
+        Me.GroupBox2.Controls.Add(Me.RBjacuzzi)
+        Me.GroupBox2.Controls.Add(Me.RBaire)
+        Me.GroupBox2.Controls.Add(Me.RBestadar)
+        Me.GroupBox2.Location = New System.Drawing.Point(24, 173)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(227, 103)
+        Me.GroupBox2.TabIndex = 8
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Tipo de habitación "
         '
-        'MOSTRARToolStripMenuItem
+        'RBjacuzzi
         '
-        Me.MOSTRARToolStripMenuItem.Name = "MOSTRARToolStripMenuItem"
-        Me.MOSTRARToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
-        Me.MOSTRARToolStripMenuItem.Text = "MOSTRAR"
+        Me.RBjacuzzi.AutoSize = True
+        Me.RBjacuzzi.Location = New System.Drawing.Point(12, 76)
+        Me.RBjacuzzi.Name = "RBjacuzzi"
+        Me.RBjacuzzi.Size = New System.Drawing.Size(60, 17)
+        Me.RBjacuzzi.TabIndex = 2
+        Me.RBjacuzzi.TabStop = True
+        Me.RBjacuzzi.Text = "Jacuzzi"
+        Me.RBjacuzzi.UseVisualStyleBackColor = True
         '
-        'ELIMINARToolStripMenuItem
+        'RBaire
         '
-        Me.ELIMINARToolStripMenuItem.Name = "ELIMINARToolStripMenuItem"
-        Me.ELIMINARToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
-        Me.ELIMINARToolStripMenuItem.Text = "ELIMINAR"
+        Me.RBaire.AutoSize = True
+        Me.RBaire.Location = New System.Drawing.Point(12, 53)
+        Me.RBaire.Name = "RBaire"
+        Me.RBaire.Size = New System.Drawing.Size(117, 17)
+        Me.RBaire.TabIndex = 1
+        Me.RBaire.TabStop = True
+        Me.RBaire.Text = "Aire Acondicionado"
+        Me.RBaire.UseVisualStyleBackColor = True
         '
-        'LIMPIARVECTORESToolStripMenuItem
+        'RBestadar
         '
-        Me.LIMPIARVECTORESToolStripMenuItem.Name = "LIMPIARVECTORESToolStripMenuItem"
-        Me.LIMPIARVECTORESToolStripMenuItem.Size = New System.Drawing.Size(121, 20)
-        Me.LIMPIARVECTORESToolStripMenuItem.Text = "LIMPIAR VECTORES"
+        Me.RBestadar.AutoSize = True
+        Me.RBestadar.Location = New System.Drawing.Point(12, 28)
+        Me.RBestadar.Name = "RBestadar"
+        Me.RBestadar.Size = New System.Drawing.Size(67, 17)
+        Me.RBestadar.TabIndex = 0
+        Me.RBestadar.TabStop = True
+        Me.RBestadar.Text = "Estandar"
+        Me.RBestadar.UseVisualStyleBackColor = True
         '
-        'GBdatos
+        'TBpersonas
         '
-        Me.GBdatos.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.GBdatos.Controls.Add(Me.ComboBox2)
-        Me.GBdatos.Controls.Add(Me.Label3)
-        Me.GBdatos.Controls.Add(Me.ComboBox1)
-        Me.GBdatos.Controls.Add(Me.Label2)
-        Me.GBdatos.Controls.Add(Me.TextBox4)
-        Me.GBdatos.Controls.Add(Me.Label4)
-        Me.GBdatos.Controls.Add(Me.TBdias)
-        Me.GBdatos.Controls.Add(Me.Ldias)
-        Me.GBdatos.Controls.Add(Me.TBnit)
-        Me.GBdatos.Controls.Add(Me.Lnit)
-        Me.GBdatos.Controls.Add(Me.TBnombre)
-        Me.GBdatos.Controls.Add(Me.Label1)
-        Me.GBdatos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.GBdatos.Location = New System.Drawing.Point(12, 42)
-        Me.GBdatos.Name = "GBdatos"
-        Me.GBdatos.Size = New System.Drawing.Size(294, 247)
-        Me.GBdatos.TabIndex = 2
-        Me.GBdatos.TabStop = False
-        Me.GBdatos.Text = "Datos"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(24, 19)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(54, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "NOMBRE"
-        '
-        'TBnombre
-        '
-        Me.TBnombre.Location = New System.Drawing.Point(125, 19)
-        Me.TBnombre.Name = "TBnombre"
-        Me.TBnombre.Size = New System.Drawing.Size(100, 20)
-        Me.TBnombre.TabIndex = 1
-        '
-        'TBnit
-        '
-        Me.TBnit.Location = New System.Drawing.Point(125, 51)
-        Me.TBnit.Name = "TBnit"
-        Me.TBnit.Size = New System.Drawing.Size(100, 20)
-        Me.TBnit.TabIndex = 3
-        '
-        'Lnit
-        '
-        Me.Lnit.AutoSize = True
-        Me.Lnit.Location = New System.Drawing.Point(24, 51)
-        Me.Lnit.Name = "Lnit"
-        Me.Lnit.Size = New System.Drawing.Size(25, 13)
-        Me.Lnit.TabIndex = 2
-        Me.Lnit.Text = "NIT"
-        '
-        'TBdias
-        '
-        Me.TBdias.Location = New System.Drawing.Point(125, 89)
-        Me.TBdias.Name = "TBdias"
-        Me.TBdias.Size = New System.Drawing.Size(100, 20)
-        Me.TBdias.TabIndex = 5
-        '
-        'Ldias
-        '
-        Me.Ldias.AutoSize = True
-        Me.Ldias.Location = New System.Drawing.Point(24, 89)
-        Me.Ldias.Name = "Ldias"
-        Me.Ldias.Size = New System.Drawing.Size(95, 13)
-        Me.Ldias.TabIndex = 4
-        Me.Ldias.Text = "Dias a hospedarse"
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(125, 129)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 7
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(24, 132)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(50, 13)
-        Me.Label4.TabIndex = 6
-        Me.Label4.Text = "Impuesto"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(24, 168)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(80, 13)
-        Me.Label2.TabIndex = 8
-        Me.Label2.Text = "Tipo habitacion"
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"sencilla", "doble", "cabaña"})
-        Me.ComboBox1.Location = New System.Drawing.Point(125, 168)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 9
-        '
-        'ComboBox2
-        '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"efectivo", "tarjeta", "transferencia", "deposito"})
-        Me.ComboBox2.Location = New System.Drawing.Point(125, 206)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox2.TabIndex = 11
+        Me.TBpersonas.Location = New System.Drawing.Point(132, 128)
+        Me.TBpersonas.Name = "TBpersonas"
+        Me.TBpersonas.Size = New System.Drawing.Size(100, 20)
+        Me.TBpersonas.TabIndex = 5
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(24, 206)
+        Me.Label3.Location = New System.Drawing.Point(21, 135)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(56, 13)
-        Me.Label3.TabIndex = 10
-        Me.Label3.Text = "Tipo Pago"
+        Me.Label3.Size = New System.Drawing.Size(105, 13)
+        Me.Label3.TabIndex = 4
+        Me.Label3.Text = "Número de personas"
         '
-        'GroupBox1
+        'TBnombre
         '
-        Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.GroupBox1.Controls.Add(Me.TBnitconsulta)
-        Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Location = New System.Drawing.Point(328, 51)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(240, 100)
-        Me.GroupBox1.TabIndex = 3
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "CONSULTAR"
+        Me.TBnombre.Location = New System.Drawing.Point(132, 81)
+        Me.TBnombre.Name = "TBnombre"
+        Me.TBnombre.Size = New System.Drawing.Size(100, 20)
+        Me.TBnombre.TabIndex = 3
         '
-        'TBnitconsulta
+        'Label2
         '
-        Me.TBnitconsulta.Location = New System.Drawing.Point(90, 42)
-        Me.TBnitconsulta.Name = "TBnitconsulta"
-        Me.TBnitconsulta.Size = New System.Drawing.Size(100, 20)
-        Me.TBnitconsulta.TabIndex = 13
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(21, 88)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(95, 13)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "Nombre del cliente"
         '
-        'Label5
+        'TBnit
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(23, 42)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(25, 13)
-        Me.Label5.TabIndex = 12
-        Me.Label5.Text = "NIT"
+        Me.TBnit.Location = New System.Drawing.Point(132, 38)
+        Me.TBnit.Name = "TBnit"
+        Me.TBnit.Size = New System.Drawing.Size(100, 20)
+        Me.TBnit.TabIndex = 1
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(21, 45)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(73, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Número de nit"
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.DataGridView1)
+        Me.GroupBox3.Location = New System.Drawing.Point(332, 71)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(530, 181)
+        Me.GroupBox3.TabIndex = 1
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "INFORMACION"
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
-        Me.DataGridView1.Location = New System.Drawing.Point(28, 307)
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5})
+        Me.DataGridView1.Location = New System.Drawing.Point(3, 16)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(835, 94)
-        Me.DataGridView1.TabIndex = 12
+        Me.DataGridView1.Size = New System.Drawing.Size(521, 159)
+        Me.DataGridView1.TabIndex = 0
         '
         'Column1
         '
-        Me.Column1.HeaderText = "NOMBRE"
+        Me.Column1.HeaderText = "Número de Nit"
         Me.Column1.Name = "Column1"
         '
         'Column2
         '
-        Me.Column2.HeaderText = "NIT"
+        Me.Column2.HeaderText = "Nombre Cliente"
         Me.Column2.Name = "Column2"
         '
         'Column3
         '
-        Me.Column3.HeaderText = "DIAS A HOSPEDARSE"
+        Me.Column3.HeaderText = "Número de Personas"
         Me.Column3.Name = "Column3"
         '
         'Column4
         '
-        Me.Column4.HeaderText = "IMPUESTO"
+        Me.Column4.HeaderText = "Tipo Habitación"
         Me.Column4.Name = "Column4"
         '
         'Column5
         '
-        Me.Column5.HeaderText = "TIPO HABITACION"
+        Me.Column5.HeaderText = "Total"
         Me.Column5.Name = "Column5"
         '
-        'Column6
+        'MenuStrip1
         '
-        Me.Column6.HeaderText = "TIPO DE PAGO"
-        Me.Column6.Name = "Column6"
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AceptarToolStripMenuItem, Me.MostrarToolStripMenuItem, Me.BuscarToolStripMenuItem, Me.OrdenarDescendenteToolStripMenuItem, Me.LimpiarMatrizToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(916, 24)
+        Me.MenuStrip1.TabIndex = 3
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'AceptarToolStripMenuItem
+        '
+        Me.AceptarToolStripMenuItem.Name = "AceptarToolStripMenuItem"
+        Me.AceptarToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
+        Me.AceptarToolStripMenuItem.Text = "Aceptar"
+        '
+        'MostrarToolStripMenuItem
+        '
+        Me.MostrarToolStripMenuItem.Name = "MostrarToolStripMenuItem"
+        Me.MostrarToolStripMenuItem.Size = New System.Drawing.Size(63, 20)
+        Me.MostrarToolStripMenuItem.Text = "Mostrar "
+        '
+        'BuscarToolStripMenuItem
+        '
+        Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
+        Me.BuscarToolStripMenuItem.Text = "Buscar"
+        '
+        'OrdenarDescendenteToolStripMenuItem
+        '
+        Me.OrdenarDescendenteToolStripMenuItem.Name = "OrdenarDescendenteToolStripMenuItem"
+        Me.OrdenarDescendenteToolStripMenuItem.Size = New System.Drawing.Size(133, 20)
+        Me.OrdenarDescendenteToolStripMenuItem.Text = "Ordenar Descendente"
+        '
+        'LimpiarMatrizToolStripMenuItem
+        '
+        Me.LimpiarMatrizToolStripMenuItem.Name = "LimpiarMatrizToolStripMenuItem"
+        Me.LimpiarMatrizToolStripMenuItem.Size = New System.Drawing.Size(95, 20)
+        Me.LimpiarMatrizToolStripMenuItem.Text = "Limpiar Matriz"
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.TBconsulta)
+        Me.GroupBox5.Controls.Add(Me.Label5)
+        Me.GroupBox5.Location = New System.Drawing.Point(413, 306)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(157, 107)
+        Me.GroupBox5.TabIndex = 11
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Buscar"
+        '
+        'TBconsulta
+        '
+        Me.TBconsulta.Location = New System.Drawing.Point(19, 55)
+        Me.TBconsulta.Name = "TBconsulta"
+        Me.TBconsulta.Size = New System.Drawing.Size(100, 20)
+        Me.TBconsulta.TabIndex = 10
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(16, 29)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(120, 13)
+        Me.Label5.TabIndex = 0
+        Me.Label5.Text = "Ingrese el número de nit"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(875, 413)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.BackgroundImage = Global._201801457_HOTEL.My.Resources.Resources._327416552
+        Me.ClientSize = New System.Drawing.Size(916, 472)
+        Me.Controls.Add(Me.GroupBox5)
+        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.GBdatos)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
         Me.Text = "Form1"
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
-        Me.GBdatos.ResumeLayout(False)
-        Me.GBdatos.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox5.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents CALCULOToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents MOSTRARToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ELIMINARToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents LIMPIARVECTORESToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents GBdatos As GroupBox
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Label4 As Label
-    Friend WithEvents TBdias As TextBox
-    Friend WithEvents Ldias As Label
-    Friend WithEvents TBnit As TextBox
-    Friend WithEvents Lnit As Label
-    Friend WithEvents TBnombre As TextBox
-    Friend WithEvents Label1 As Label
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents TBnitconsulta As TextBox
-    Friend WithEvents Label5 As Label
+    Friend WithEvents TBnombre As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents TBnit As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TBpersonas As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents RBjacuzzi As RadioButton
+    Friend WithEvents RBaire As RadioButton
+    Friend WithEvents RBestadar As RadioButton
+    Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
-    Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents AceptarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MostrarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BuscarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents OrdenarDescendenteToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents LimpiarMatrizToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents GroupBox5 As GroupBox
+    Friend WithEvents TBconsulta As TextBox
+    Friend WithEvents Label5 As Label
 End Class

@@ -1,0 +1,13 @@
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\obj\Debug\201801457_HOTEL.vbproj.AssemblyReference.cache
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\obj\Debug\201801457_HOTEL.vbproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\obj\Debug\_201801457_HOTEL.Form1.resources
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\obj\Debug\_201801457_HOTEL.Resources.resources
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\obj\Debug\201801457_HOTEL.vbproj.GenerateResource.cache
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\obj\Debug\201801457_HOTEL.vbproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\bin\Debug\201801457_HOTEL.exe.config
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\bin\Debug\201801457_HOTEL.exe
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\bin\Debug\201801457_HOTEL.pdb
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\bin\Debug\201801457_HOTEL.xml
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\obj\Debug\201801457_HOTEL.exe
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\obj\Debug\201801457_HOTEL.xml
+C:\Users\HP\Desktop\1s22\092\201801457_HOTEL\obj\Debug\201801457_HOTEL.pdb

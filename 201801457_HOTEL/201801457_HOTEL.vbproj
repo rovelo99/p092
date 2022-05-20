@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{170C2462-5B99-4887-95F2-6A5DBD93E0DD}</ProjectGuid>
+    <ProjectGuid>{6737BBD8-B7D7-4E7B-810C-25BE5E64E0FA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>_201801457_HOTEL.My.MyApplication</StartupObject>
     <RootNamespace>_201801457_HOTEL</RootNamespace>
